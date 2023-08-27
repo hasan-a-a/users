@@ -15,7 +15,8 @@ submitEl.addEventListener("click",function(){
     }else{
         alert ("You succefuly registred")
         reset()
-        secondPage()
+        setTimeout(secondPage,1000);
+      
         return;
     }
 })

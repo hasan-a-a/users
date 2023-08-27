@@ -12,7 +12,11 @@ submitEl.addEventListener("click",function(){
         alert ("Your password dose not match")
         return;
     }else if (registerconfEl.value === registerPassEl.value){
+        addUser(registerUserEl, registerPassEl)
         alert ("You succefuly registred")
         return;
     }
 })
+function addUser(registerUserEl, registerPassEl) {
+    users.push([ registerUserEl, registerPassEl ]);
+}

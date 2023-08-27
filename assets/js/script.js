@@ -24,3 +24,7 @@ function reset(){
     registerconfEl.value = "";
     registerUserEl.focus()
 }
+function secondPage(){
+    window.location.replace("login.html")
+}
+

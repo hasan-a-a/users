@@ -3,8 +3,8 @@ let passEl = document.getElementById("Pass")
 let loginBtn = document.getElementById("Loginbtn")
 let registerEl = document.getElementById("register")
 document.title = "Log In"
-let counter = 0
-let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
+// let counter = 0
+// let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
 
 
 // loginBtn.addEventListener("click", function(){

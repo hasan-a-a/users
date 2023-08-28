@@ -2,6 +2,7 @@ let registerUserEl = document.getElementById ("registerUser")
 let registerPassEl = document.getElementById ("registerPass")
 let registerconfEl = document.getElementById ("registerconf")
 let submitEl = document.getElementById ("submit")
+let olduser = document.getElementById ("olduser")
 const users = []
 document.title = "USERS"
 submitEl.addEventListener("click",function(){
@@ -27,6 +28,9 @@ function reset(){
     registerUserEl.focus()
 }
 function secondPage(){
-    window.location.replace("login.html")
+    window.location.replace("index.html")
 }
+olduser.addEventListener("click",function(){
+    window.location.replace("index.html")
+})
 
